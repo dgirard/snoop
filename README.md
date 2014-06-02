@@ -32,7 +32,7 @@ Execute :
 
 Add a cron job :
 
-    */1 * * * * /fullpathtoyourscript/snoop.sh  https://myservertoping/snoop myGoogleCloudStorageBucket https://myscripttoexecute/script.sh /User/me/myTempDirectory  > /dev/null 2>&1
+    */1 * * * * /fullpathtoyourscript/snoop.sh  https://myservertoping/snoop myGoogleCloudStorageBucket https://myscripttoexecute/script.sh /User/me/google-cloud-sdk/ /User/me/myTempDirectory  > /dev/null 2>&1
 
 Check that the cron job is ready
 
