@@ -11,10 +11,11 @@ Install GSUTIL : https://developers.google.com/storage/docs/gsutil_install
 Test the script : 
 -----------------
 
-     Usage : snoop.sh HTTPPingURL bucketname script tempdir
+     Usage : snoop.sh HTTPPingURL bucketname script cloudSDK tempdir
          HTTPPingURL : HTTP URL to GET for IP ping
          bucketname : name of the Google Cloud Storage bucket for screencapture upload
          URLScript : URL of the script to HTTP GET for execution
+         cloudSDK : Directory of Google CLoud SDK
          tempdir : temp directory for image manipulation
 
 Exemple :
