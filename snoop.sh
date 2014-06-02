@@ -2,10 +2,10 @@
 
 usage ()
 {
-  echo 'Usage : snoop pingIP namebucket script tempdir'
-  echo '   pingIP : HTTP URL to GET for ping'
-  echo '   namebucket : name of the Google Cloud Storage bucket for screencapture upload'
-  echo '   namegithubrepo : script to GET for execution'
+  echo 'Usage : snoop HTTPPingURL bucketname script tempdir'
+  echo '   HTTPPingURL : HTTP URL to GET for IP ping'
+  echo '   bucketname : name of the Google Cloud Storage bucket for screencapture upload'
+  echo '   URLScript : URL of the script to HTTP GET for execution'
   echo '   tempdir : temp directory for image manipulation'
   echo '   '
 
