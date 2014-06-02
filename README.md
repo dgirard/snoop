@@ -3,6 +3,7 @@ How to use Snoop
 
 
 Activate Google Cloud Storage : https://developers.google.com/storage/docs/signup#activate
+
 Install GSUTIL : https://developers.google.com/storage/docs/gsutil_install
 
 
