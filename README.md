@@ -4,10 +4,17 @@ How to use Snoop
 
 Install GSUTIL : https://developers.google.com/storage/docs/gsutil_install
 
-Create a temp directory : /Users/me/myTempDirectory
+
 
 Test the script : 
 -----------------
+
+     Usage : snoop.sh HTTPPingURL bucketname script tempdir
+         HTTPPingURL : HTTP URL to GET for IP ping
+         bucketname : name of the Google Cloud Storage bucket for screencapture upload
+         URLScript : URL of the script to HTTP GET for execution
+         tempdir : temp directory for image manipulation
+
 
     ./snoop.sh https://myservertoping/snoop myGoogleCloudStorageBucket https://myscripttoexecute/script.sh /User/me/myTempDirectory
 
