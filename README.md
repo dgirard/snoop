@@ -28,7 +28,7 @@ Execute :
 
     EDITOR=/usr/bin/emacs crontab  -e
 
-Add this cron job :
+Add a cron job :
 
     */1 * * * * /fullpathtoyourscript/snoop.sh  https://myservertoping/snoop myGoogleCloudStorageBucket https://myscripttoexecute/script.sh /User/me/myTempDirectory  > /dev/null 2>&1
 
