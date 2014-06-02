@@ -2,6 +2,7 @@ How to use Snoop
 ================
 
 
+Activate Google Cloud Storage : https://developers.google.com/storage/docs/signup#activate
 Install GSUTIL : https://developers.google.com/storage/docs/gsutil_install
 
 
@@ -14,7 +15,6 @@ Test the script :
          bucketname : name of the Google Cloud Storage bucket for screencapture upload
          URLScript : URL of the script to HTTP GET for execution
          tempdir : temp directory for image manipulation
-
 
 Exemple :
 
