@@ -16,6 +16,8 @@ Test the script :
          tempdir : temp directory for image manipulation
 
 
+Exemple :
+
     ./snoop.sh https://myservertoping/snoop myGoogleCloudStorageBucket https://myscripttoexecute/script.sh /User/me/myTempDirectory
 
 
