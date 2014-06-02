@@ -20,7 +20,7 @@ Test the script :
 
 Exemple :
 
-    ./snoop.sh https://myservertoping/snoop myGoogleCloudStorageBucket https://myscripttoexecute/script.sh  / User/me/google-cloud-sdk/ /User/me/myTempDirectory
+    ./snoop.sh https://myservertoping/snoop myGoogleCloudStorageBucket https://myscripttoexecute/script.sh  /User/me/google-cloud-sdk/ /User/me/myTempDirectory
 
 
 Add a cronjob :
